@@ -1,4 +1,4 @@
-public class Fila {
+public class fila {
 	
 	public String Nomedocumento;
 	public String Tipodocumento;
@@ -7,15 +7,15 @@ public class Fila {
 	
 	  private static Fila instancia = null;
 
-    private Fila() {
+    private fila() {
 
     }
 
-    public static Fila getInstance(){
+    public static fila getInstance(){
 
         if (instancia == null){
 
-            instancia = new Fila();
+            instancia = new fila();
 
         }
 	
